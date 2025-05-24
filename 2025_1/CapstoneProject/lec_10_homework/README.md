@@ -7,12 +7,15 @@
 - PIP 사용
 
 ## 설치가 잘 되지 않을 때
+
+#### 캐시 정리 및 env 초기화
 ```bash
-캐시 정리 및 env 초기화
 conda clean --all
 pip cache purge
+```
 
-설치 순서
+#### 설치 순서
+```bash
 1. 가상환경 생성
 bashconda create -n capstone_yolo python=3.9
 conda activate capstone_yolo
@@ -22,3 +25,4 @@ bashpip install torch torchvision torchaudio --index-url https://download.pytorc
 bashpip install ultralytics
 4. 추가 라이브러리 설치
 bashpip install opencv-python pillow matplotlib
+```
