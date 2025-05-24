@@ -1,4 +1,6 @@
 # 호환성에 어려움을 겪다가 성공한 설치 순서 및 과정
+- docker를 사용하지 않았을 때의 방법
+- docker를 사용하면 훨씬 편하게 할 수 있음(참고용!!)
 
 ## 설치 환경
 - Anaconda 사용
@@ -19,10 +21,13 @@ pip cache purge
 1. 가상환경 생성
 bashconda create -n capstone_yolo python=3.9
 conda activate capstone_yolo
+
 2. PyTorch 설치(GPU)
 bashpip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 3. ultralytics 설치
 bashpip install ultralytics
+
 4. 추가 라이브러리 설치
 bashpip install opencv-python pillow matplotlib
 ```
