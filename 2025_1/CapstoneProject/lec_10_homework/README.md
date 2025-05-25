@@ -17,7 +17,7 @@ pip cache purge
 ```
 
 #### 설치 순서
-```bash
+```
 1. 가상환경 생성
 bashconda create -n capstone_yolo python=3.9
 conda activate capstone_yolo
