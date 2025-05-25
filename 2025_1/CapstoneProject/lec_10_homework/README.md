@@ -19,15 +19,15 @@ pip cache purge
 #### 설치 순서
 ```
 1. 가상환경 생성
-bashconda create -n capstone_yolo python=3.9
+conda create -n capstone_yolo python=3.9
 conda activate capstone_yolo
 
 2. PyTorch 설치(GPU)
-bashpip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 3. ultralytics 설치
-bashpip install ultralytics
+pip install ultralytics
 
 4. 추가 라이브러리 설치
-bashpip install opencv-python pillow matplotlib
+pip install opencv-python pillow matplotlib
 ```
