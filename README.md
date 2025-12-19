@@ -26,3 +26,10 @@
 
 - [**캡스톤 프로젝트**](https://github.com/higun295/Industrial-AI/tree/master/2025_1/CapstoneProject)  
   학과에서 배운 내용을 종합하여 문제를 정의하고 해결책을 제시하는 종합 프로젝트를 진행합니다.
+
+### 2025년 2학기
+- [**연구윤리 및 연구과제**](https://github.com/higun295/Industrial-AI/tree/master/2025_1/ReinforcementLearning)  
+  강화학습 이론과 알고리즘을 학습하고, 실습을 통해 실제 환경에 적용해봅니다.
+
+- [**지능화 파일럿 프로젝트**](https://github.com/higun295/Industrial-AI/tree/master/2025_1/CapstoneProject)  
+  학과에서 배운 내용을 종합하여 문제를 정의하고 해결책을 제시하는 종합 프로젝트를 진행합니다.
